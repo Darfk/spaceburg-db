@@ -1,15 +1,6 @@
-var express = require('express');
-var app = express();
+var api = require('./api.js');
+var web = require('./web.js');
 
-app.use(function (req, res, next) {
-  res.setHeader('Content-Type', 'application/json');
-  next();
-});
-
-app.get('/ping', function (req, res) {
-  res.send({datetime: new Date()});
-});
-
-app.listen(8081);
+web.main();
 
 
