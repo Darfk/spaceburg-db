@@ -1,0 +1,11 @@
+{
+  "name": "spaceburg-playerdb",
+  "description": "Space Burg - Player data API",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "rethinkdb": "1.2.6-1",
+    "express": "3.0.6",
+    "nodemon": "0.7.1"
+  }
+}
