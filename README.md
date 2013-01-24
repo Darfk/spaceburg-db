@@ -1,4 +1,4 @@
-Space Burg - Player Data API
+Space Burg - Data API
 ===
 
 Installation
